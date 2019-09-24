@@ -18,7 +18,7 @@ The definitions and a detailed requirements list follow. You will be graded on w
   
 ### Schema
 - Post
-```
+```js
   {
     id: String|Required,
     slug: String|Required,
