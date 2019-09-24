@@ -88,3 +88,9 @@ The definitions and a detailed requirements list follow. You will be graded on w
 ### Technologies
   - Node/Express
   - Mongodb
+
+
+### Recommended packages
+  - [Celebrate](https://www.npmjs.com/package/celebrate): celebrate is an express middleware function that wraps the joi validation library
+  - [Mongoose](https://www.npmjs.com/package/mongoose): Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
+  - [Babel-watch](https://www.npmjs.com/package/babel-watch): Reload your babel-node app on JS source file changes. And do it fast.
