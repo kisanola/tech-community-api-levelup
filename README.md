@@ -100,6 +100,7 @@ The definitions and a detailed requirements list follow. You will be graded on w
 ### Technologies
   - Node/Express
   - Mongodb
+  - Jest/Supertest
 
 
 ### Recommended packages
@@ -112,6 +113,7 @@ The definitions and a detailed requirements list follow. You will be graded on w
 - You should setup babel and use es6 features
 - All the endpoints should work as expected
 - Some endpoints should have request validation
+- You should write integration tests for all endpoints
 - Features should be implemented in different branches
 
 
