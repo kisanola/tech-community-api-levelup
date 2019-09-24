@@ -116,6 +116,7 @@ The definitions and a detailed requirements list follow. You will be graded on w
 - You should write integration tests for all endpoints
 - Features should be implemented in different branches
 
-
+### Basic Project Structure
+[Project Structure](./project-structure)
 ### Author
 - [Olivier Esuka](https://github.com/oesukam)
