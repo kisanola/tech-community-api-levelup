@@ -84,3 +84,7 @@ The definitions and a detailed requirements list follow. You will be graded on w
     ]
   }
   ```
+
+### Technologies
+  - Node/Express
+  - Mongodb
