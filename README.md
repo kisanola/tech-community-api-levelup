@@ -101,3 +101,10 @@ The definitions and a detailed requirements list follow. You will be graded on w
   - [Celebrate](https://www.npmjs.com/package/celebrate): celebrate is an express middleware function that wraps the joi validation library
   - [Mongoose](https://www.npmjs.com/package/mongoose): Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
   - [Babel-watch](https://www.npmjs.com/package/babel-watch): Reload your babel-node app on JS source file changes. And do it fast.
+
+
+### Acceptance criteria
+- All the endpoints should work as expected
+- Some endpoints should have request validation
+- Features should be implemented in different branches
+
