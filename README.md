@@ -4,12 +4,17 @@ In this challenge, you are part of a team building a blog platform. One requirem
 
 The definitions and a detailed requirements list follow. You will be graded on whether your application performs data retrieval and manipulation based on given use cases exactly as described in the requirements.
 
-### Required features
+### Features
+#### Required features
 - Users should be able to add a new post
 - Users should be able to update a single post
 - Users should be able to retrieve a sinle post
 - Users should be able to delete a single post
 - Users should be able to retrive all posts
+
+#### Optional features
+- Order posts by title, description, created date, etc.
+- Filter post by title, description, etc.
   
 ### Schema
 - Post
@@ -104,6 +109,7 @@ The definitions and a detailed requirements list follow. You will be graded on w
 
 
 ### Acceptance criteria
+- You should setup babel and use es6 features
 - All the endpoints should work as expected
 - Some endpoints should have request validation
 - Features should be implemented in different branches
