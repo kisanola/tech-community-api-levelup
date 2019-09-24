@@ -108,3 +108,6 @@ The definitions and a detailed requirements list follow. You will be graded on w
 - Some endpoints should have request validation
 - Features should be implemented in different branches
 
+
+### Author
+- [Olivier Esuka](https://github.com/oesukam)
