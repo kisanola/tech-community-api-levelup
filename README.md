@@ -5,7 +5,7 @@ In this challenge, you are part of a team building a blog platform. One requirem
 The definitions and a detailed requirements list follow. You will be graded on whether your application performs data retrieval and manipulation based on given use cases exactly as described in the requirements.
 
 ### Schema
-#### Post
+- Post
 ```
   {
     id: String|Required,
@@ -17,3 +17,70 @@ The definitions and a detailed requirements list follow. You will be graded on w
     updatedAt: Date|Required,
   }
 ```
+### Responses
+#### Generic Responses
+- Success reposnse
+  ```js
+    {
+      status: Integer,
+      message: String,
+      data: Object|Array
+    }
+  ```
+
+- Error response
+  ```js
+  {
+    status: Integer,
+    error: Object|Array
+  }
+  ```
+
+#### Success Posts response
+- POST /posts
+  ```js
+  {
+    status: 201,
+    data : {
+      id: String|Required,
+      slug: String|Required,
+      poster: String|Required,
+      title: String|Required,
+      description: String|Required,
+      createdAt: Date|Required,
+      updatedAt: Date|Required,
+    }
+  }
+  ```
+- POST /posts/postId
+  ```js
+  {
+    status: 200,
+    data : {
+      id: String|Required,
+      slug: String|Required,
+      poster: String|Required,
+      title: String|Required,
+      description: String|Required,
+      createdAt: Date|Required,
+      updatedAt: Date|Required,
+    }
+  }
+  ```
+- GET /posts
+  ```js
+  {
+    status: 200,
+    data : [
+      {
+        id: String|Required,
+        slug: String|Required,
+        poster: String|Required,
+        title: String|Required,
+        description: String|Required,
+        createdAt: Date|Required,
+        updatedAt: Date|Required,
+      }
+    ]
+  }
+  ```
