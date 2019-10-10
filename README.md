@@ -6,32 +6,32 @@ The definitions and a detailed requirements list follow. You will be graded on w
 
 ### Features
 #### Required features
-- Users should be able to add a new post
-- Users should be able to update a single post
-- Users should be able to retrieve a sinle post
-- Users should be able to delete a single post
-- Users should be able to retrive all posts
+  - Users should be able to add a new post
+  - Users should be able to update a single post
+  - Users should be able to retrieve a sinle post
+  - Users should be able to delete a single post
+  - Users should be able to retrive all posts
 
 #### Optional features
-- Order posts by title, description, created date, etc.
-- Filter post by title, description, etc.
+  - Order posts by title, description, created date, etc.
+  - Filter post by title, description, etc.
   
 ### Schema
-- Post
-```js
-  {
-    id: String|Required,
-    slug: String|Required,
-    poster: String|Required,
-    title: String|Required,
-    description: String|Required,
-    createdAt: Date|Required,
-    updatedAt: Date|Required,
-  }
-```
+  - Post
+  ```js
+    {
+      id: String|Required,
+      slug: String|Required,
+      poster: String|Required,
+      title: String|Required,
+      description: String|Required,
+      createdAt: Date|Required,
+      updatedAt: Date|Required,
+    }
+  ```
 ### Responses
 #### Generic Responses
-- Success reposnse
+  - Success reposnse
   ```js
     {
       status: Integer,
@@ -40,7 +40,7 @@ The definitions and a detailed requirements list follow. You will be graded on w
     }
   ```
 
-- Error response
+  - Error response
   ```js
   {
     status: Integer,
@@ -49,7 +49,7 @@ The definitions and a detailed requirements list follow. You will be graded on w
   ```
 
 #### Success Posts response
-- POST /posts
+  - POST /posts
   ```js
   {
     status: 201,
@@ -110,13 +110,13 @@ The definitions and a detailed requirements list follow. You will be graded on w
 
 
 ### Acceptance criteria
-- You should setup babel and use es6 features
-- All the endpoints should work as expected
-- Some endpoints should have request validation
-- You should write integration tests for all endpoints
-- Features should be implemented in different branches
+  - You should setup babel and use es6 features
+  - All the endpoints should work as expected
+  - Some endpoints should have request validation
+  - You should write integration tests for all endpoints
+  - Features should be implemented in different branches
 
 ### Basic Project Structure
 [Project Structure](./project-structure)
 ### Author
-- [Olivier Esuka](https://github.com/oesukam)
+  - [Olivier Esuka](https://github.com/oesukam)
